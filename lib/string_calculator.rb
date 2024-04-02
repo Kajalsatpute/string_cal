@@ -15,7 +15,6 @@ class StringCalculator
     end
     @arr.each do |num|
       begin
-        byebug
         sum_arr << StringCalculator.add(num)
         puts "Sum of the numbers: #{sum_arr}"
       rescue StandardError => e
