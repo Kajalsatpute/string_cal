@@ -1,6 +1,6 @@
 # spec/string_calculator_spec.rb
 
-require 'string_calculator'
+require '../lib/string_calculator'
 require 'byebug'
 
 RSpec.describe StringCalculator do
